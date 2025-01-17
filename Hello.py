@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # Add a banner or logo
-image = Image.open('your_image_path_here.png')  # Replace with your banner/logo path
+image = Image.open('https://cdn-icons-png.flaticon.com/512/5932/5932535.png')  # Replace with your banner/logo path
 st.image(image, use_column_width=True)
 
 # Title
