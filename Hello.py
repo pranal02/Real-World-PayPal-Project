@@ -49,22 +49,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Info Message with Enhancements
-st.info(
-    """
-    **⚠️ Notice: Application May Take a Few Moments to Load**
 
-    Thank you for accessing this application! Please note that the server hosting this app 
-    is currently in a **sleep mode** due to resource optimizations. When the app is not 
-    actively used, it temporarily enters a hibernation state to conserve resources.
-
-    As a result, the app may take **10–30 seconds** to wake up and fully load after you access it. 
-    Once active, it will run smoothly without further delays.
-
-    We appreciate your patience and understanding. If you experience any issues, 
-    feel free to refresh the page or try again later.
-    """
-)
 
 # Add More Engagement Options
 st.markdown(
