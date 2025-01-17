@@ -21,7 +21,7 @@ st.set_page_config(
 
 # Add a banner or logo
 image_url = "https://cdn-icons-png.flaticon.com/512/5932/5932535.png"  # Replace with your banner/logo URL
-st.image(image_url, use_column_width=True)
+st.image(image_url, width=250)  # Adjusted to display at half size (assuming the original is 500px wide)
 
 # Title
 st.title("Welcome to PayPal Reviews 🎉")
