@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 from streamlit_lottie import st_lottie
 import requests
 
@@ -21,8 +20,8 @@ st.set_page_config(
 )
 
 # Add a banner or logo
-image = Image.open('https://cdn-icons-png.flaticon.com/512/5932/5932535.png')  # Replace with your banner/logo path
-st.image(image, use_column_width=True)
+image_url = "https://cdn-icons-png.flaticon.com/512/5932/5932535.png"  # Replace with your banner/logo URL
+st.image(image_url, use_column_width=True)
 
 # Title
 st.title("Welcome to PayPal Reviews 🎉")
@@ -74,5 +73,4 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
-
 
