@@ -70,7 +70,7 @@ st.info(
 st.markdown(
     """
     <div style="background-color:#e9ecef; padding: 20px; border-radius: 8px; margin-top: 20px;">
-    <h4 style="color:#0d6efd;">📚 Want to Learn More?</h4>
+    <h4 style="color:#0d6efd;">About the Applications</h4>
     <ul style="font-size:16px;">
         <li>Watch the [YouTube Video](https://youtube.com)</li>
         <li>Follow on [Twitter](https://twitter.com/RyanNolanData)</li>
