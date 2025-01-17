@@ -19,9 +19,16 @@ st.set_page_config(
     layout="centered",
 )
 
-# Add a banner or logo
+# Center the logo and reduce its size
 image_url = "https://cdn-icons-png.flaticon.com/512/5932/5932535.png"  # Replace with your banner/logo URL
-st.image(image_url, width=250)  # Adjusted to display at half size (assuming the original is 500px wide)
+st.markdown(
+    f"""
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="{image_url}" alt="PayPal Logo" style="width: 150px; height: auto;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Title
 st.title("Welcome to PayPal Reviews 🎉")
