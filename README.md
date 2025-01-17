@@ -1,6 +1,14 @@
+
+# Real-World PayPal Insights Suite
+- Real-World PayPal Insights Suite is a comprehensive two-in-one application designed to analyze and visualize real-world transactional data using PayPal datasets. This suite provides powerful tools to uncover meaningful insights
+- Transaction Breakdown: A robust module for cleaning, analyzing, and summarizing PayPal transactions. It calculates key metrics, flags specific keywords, identifies high-value and duplicate transactions, and generates detailed Excel reports for further analysis.
+
+  Chart Maker: A dynamic visualization module that creates insightful charts, such as histograms, box plots, and monthly transaction trend analyses, with interactive filters for payment methods, countries, and more.
+---
+[**Access the deployed application here**](https://real-world-paypal-project-gel8tyrsw3i6i4w6hcvmhu.streamlit.app/) 
 # Transaction Breakdown Application 🛒
 
-[**Access the deployed application here**](https://real-world-paypal-project-gel8tyrsw3i6i4w6hcvmhu.streamlit.app/) *(Replace `#` with your Streamlit deployment URL)*
+
 
 ---
 
